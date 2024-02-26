@@ -9,8 +9,9 @@ let availablekeywords = [
     'How to create website',
 ];
 
-const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
+const resultBox = document.querySelector(".result-box");
+
 
 
 inputBox.onkeyup = function(){
@@ -18,6 +19,7 @@ inputBox.onkeyup = function(){
     let input = inputBox.value;
     if(input.length){
         result = availablekeywords.filter((keyword)=>{
+            // console.log(keyword)
         return    keyword.toLowerCase().includes(input.toLowerCase());
         })
         console.log(result)
@@ -32,7 +34,7 @@ inputBox.onkeyup = function(){
 
 function display(result){
       const content = result.map((list)=>{
-      return  "<li onclick=showResult(this)>" + list + "</li>"
+  return  "<li onclick=showResult(this)>" + list + "</li>"
       })
      resultBox.innerHTML = "<ul>" + content.join('') + "</ul>"
 }
@@ -41,3 +43,5 @@ function showResult(list){
     inputBox.value = list.innerHTML;
     resultBox.innerHTML = '';
 }
+
+
