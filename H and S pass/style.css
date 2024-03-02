@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #250057;
+}
+
+
+.input-box{
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    margin: 300px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.input-box input{
+    margin: 15px 10px;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+}
+
+.input-box img{
+    width: 35px;
+    cursor: pointer;
+}
