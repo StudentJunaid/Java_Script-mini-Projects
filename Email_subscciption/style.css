@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/spotlight-wall-black-background_833908-13.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702166400&semt=ais');
+    padding: 10px 10%;
+    background-size: cover;
+}
+
+.hero h3{
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.hero h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.hero p{
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+form{
+    background: #fff;
+    display: flex;
+    width: fit-content;
+}
+
+form input{
+    height: 70px;
+    width: 400px;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+form button{
+    background: #61b752;
+    border: none;
+    outline: none;
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+}
+
+span{
+    color: #61b752;
+    margin-top: 10px;
+    display: block;
+}
+
+
+@media (max-width:600px) {
+    form input{
+    width: 200px;
+    }
+}
