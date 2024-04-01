@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.imageshine.in/uploads/sub_category/free-hd-desktop-wallpapers-1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.title{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.col{
+    margin-top: 20px;
+   max-width: 624px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.col div{
+    width: 150px;
+    text-align: center;
+}
+
+input{
+    height: 50px;
+    width: 70%;
+    border-radius: 7px;
+    background-color: rgb(193, 198, 202);
+    text-align: center;
+    font-size: 23px;
+}
+
+@media (max-width:600px) {
+    .col div{
+        width: 90px;
+    }
+    .title{
+        font-size: 15px;
+    }
+    input{
+        height: 30px;
+        width: 60%;
+        border-radius: 7px;
+        font-size: 15px;
+    }
+}
+@media (max-width:400px) {
+    .col div {
+        width: 69px;
+    }
+    label {
+        font-size: 15px;
+    }
+    input{
+        width: 70%;;
+    }
+}
