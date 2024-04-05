@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-vector/question-mark-faq-sign-help-symbol-yellow-background-concept-assistance-information-request_110633-1304.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    width: 60%;
+    background: url('https://media.istockphoto.com/id/1456547836/photo/three-white-question-marks-a-blue-wall-background.webp?b=1&s=170667a&w=0&k=20&c=W1_A4mk1ByWN7XzNPutSUX-hDqI1EdNxQW_BN6AHN38=');
+}
+
+h2{
+    padding: 20px 10px;
+    color: white;
+}
+
+
+
+.row {
+    padding: 24px;
+    color: white;
+}
+
+.btn{
+    width: 80%;
+    height: 40px;
+    color: white;
+    background-color: rgb(69, 148, 194);
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 600px) {
+    .btn{
+        width: 40%;
+        margin-left: 20px;
+    }
+}
